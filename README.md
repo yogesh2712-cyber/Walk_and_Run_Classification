@@ -28,7 +28,7 @@ Using motion sensor data collected from wearable devices, predict whether a pers
 
 ---
 
-## 🔬 ML Pipeline (Notebook)
+## 🔬 ML Pipeline 
 
 ### 1. Import Libraries
 - `pandas`, `numpy`, `matplotlib`, `seaborn`
@@ -72,7 +72,7 @@ Using motion sensor data collected from wearable devices, predict whether a pers
 
 ---
 
-## ✅ Best Model: Random Forest
+##  Best Model: Random Forest
 
 - **Hyperparameters:** `n_estimators=200`, `max_depth=None`
 - **Accuracy:** ~99%
@@ -143,7 +143,6 @@ pip install streamlit numpy scikit-learn joblib pandas matplotlib seaborn tensor
 3. Click **"New app"** → Select your repo → Set main file as `app.py`
 4. Click **Deploy** 🎉
 
-> ⚠️ Make sure `model.pkl` is included in the repo (file size < 100MB)
 
 ---
 
